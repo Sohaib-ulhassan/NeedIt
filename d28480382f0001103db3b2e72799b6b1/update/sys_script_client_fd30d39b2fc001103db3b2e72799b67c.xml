@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>NeedIt Request  hasRole onload </name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    alert("g_user.hasRole('client_script_admin");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-01 13:14:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fd30d39b2fc001103db3b2e72799b67c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedIt Request  hasRole onload </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_715434_needit">d28480382f0001103db3b2e72799b6b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">d28480382f0001103db3b2e72799b6b1</sys_scope>
+        <sys_update_name>sys_script_client_fd30d39b2fc001103db3b2e72799b67c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-01 13:21:10</sys_updated_on>
+        <table>x_715434_needit_needit</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
